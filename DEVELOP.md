@@ -72,7 +72,7 @@ ndarray = "0.15.6"
     -   你需要一個預訓練的 AI 模型，用於圖片超解析度 (Super-Resolution)。這些模型通常以 `.onnx` 格式提供。
     -   你可以從 [ONNX Model Zoo](https://github.com/onnx/models/tree/main/validated/vision/super_resolution) 或其他模型分享平台（如 Hugging Face）下載。
     -   將下載的 `.onnx` 模型檔案放置在專案根目錄。
-
+    -   Real-ESRGAN-x4plus_float.onnx.zip(https://huggingface.co/qualcomm/Real-ESRGAN-x4plus/resolve/main/Real-ESRGAN-x4plus_float.onnx.zip)0
 2.  **圖片預處理 (Preprocessing)**:
     -   使用 `image::open()` 讀取圖片。
     -   將圖片的像素資料轉換為 `ndarray::Array` 格式的張量 (Tensor)。
